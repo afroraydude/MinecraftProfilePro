@@ -1,0 +1,15 @@
+body {
+	padding-top: 30px;
+}
+
+input[type="text"], input[type="text"]:focus {
+	box-shadow: none;
+	border-radius: 2px;
+	font-size: 20pt;
+	line-height: 1;
+	height: 50px !important;
+}
+
+h2.override, h3 {
+	line-height: 10px;
+}
