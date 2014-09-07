@@ -6,3 +6,8 @@ MCPP is an open source Minecraft (Bukkit and Spigot) plugin and PHP script that 
 IRC Server
 ===================
 Feel free to connect to our IRC channel [here (webchat)](https://webchat.boltirc.net/?channels=BukkitDev) or for clients: irc.boltirc.net:6669 #BukkitDev.
+
+
+Development Team
+===================
+MCPP is currently maintained by @matrixdevuk and @kkirigaya
