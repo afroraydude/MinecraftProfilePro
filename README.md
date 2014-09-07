@@ -10,4 +10,4 @@ Feel free to connect to our IRC channel [here (webchat)](https://webchat.boltirc
 
 Development Team
 ===================
-MCPP is currently maintained by @matrixdevuk and @kkirigaya
+MCPP is currently maintained by [matrixdevuk](https://github.com/matrixdevuk) and [kkirigaya](https://github.com/kkirigaya)
