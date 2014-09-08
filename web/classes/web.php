@@ -11,13 +11,13 @@
 		public function userFriendlyDate($original)
 		{
 			$chunks = array(
-				array(60 * 60 * 24 * 365 , "year"),
-				array(60 * 60 * 24 * 30 , "month"),
+				array(60 * 60 * 24 * 365, "year"),
+				array(60 * 60 * 24 * 30, "month"),
 				array(60 * 60 * 24 * 7, "week"),
-				array(60 * 60 * 24 , "day"),
-				array(60 * 60 , "hour"),
-				array(60 , "min"),
-				array(1 , "sec"),
+				array(60 * 60 * 24, "day"),
+				array(60 * 60, "hour"),
+				array(60, "min"),
+				array(1, "sec"),
 			);
 
 			$today = time();
@@ -37,6 +37,8 @@
 
 			$print = ($count == 1) ? "1 " . $name : $count . " " . $name . "s";
 
+			$print .= ", ";
+
 			if ($i + 1 < $j)
 			{
 				$seconds2 = $chunks[$i + 1][0];
@@ -47,6 +49,8 @@
 					$print .= ($count2 == 1) ? " 1 " . $name2 : " " . $count2 . " " . $name2 . "s";
 				}
 			}
+
+			$print .= " ago";
 
 			if (strstr(substr($print, 0, 7), "sec"))
 			{

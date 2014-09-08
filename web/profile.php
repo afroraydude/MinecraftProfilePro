@@ -204,7 +204,7 @@
 										</div>";
 							$view .= "</div>";
 
-							$view .= "<div class='col-md-4'>";
+							$view .= "<div class='col-md-12'>";
 								$view .= "<div class='panel panel-default'>
 											<div class='panel-heading'>
 												<h3 class='panel-title text-center'>Last Seen</h3>
