@@ -1,0 +1,25 @@
+mysql:
+# Configuration for the MySQL server
+# These configuration values must be exactly as you have set them up inside your web configuration settings
+  host: localhost
+  # The IP address of the MySQL server
+  # Default: localhost
+  port: 3306
+  # The port of the MySQL server
+  # Default: 3306
+  database_name: MCPP
+  # The name of the database in MySQL
+  # Default: MCPP
+  username: root
+  # The username for accessing the MySQL database
+  # Default: root
+  password:
+  # The password for accessing the MySQL database
+  # Default: none
+
+web:
+# Configuration for the web server
+  url: http://matrixdevuk.pw/
+  # The URL that stats are displayed on.
+  # Note: This is the page where you search for a player's stats
+  # Default: http://matrixdevuk.pw/
